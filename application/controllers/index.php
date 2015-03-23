@@ -20,11 +20,7 @@ class Index extends CI_Controller {
 
 		
 		$this->load->view ( 'templates/header', $data );
-		$this->load->view ( 'index/leftflash' );
-		$this->load->view ( 'index/leftrec' );
-		$this->load->view ( 'index/leftall' );
-		$this->load->view ( 'index/lefttextbook' );
-		$this->load->view ( 'index/leftinfo' );
+		$this->load->view ( 'index/main' );
 		$this->load->view ( 'index/right' );
 		$this->load->view ( 'templates/footer' );
 

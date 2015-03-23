@@ -3,36 +3,58 @@ body {
 	font-family: 微软雅黑,黑体,幼圆,宋体;
 	color: #080808;
 }
-div.leftpart{
+div.float, div.row>div {
+	position: relative;
+	float: left;
+}
+header>div.row>div:nth-child(1) {
+	width: 176px;
+}
+header>div.row>div:nth-child(2) {
+	width: 352px;
+}
+header>div.row>div:nth-child(2) input{
+	margin-top: 25px;
+}
+header img#img_jinxi_url {
+	height: 80px; 
+	margin-left: -50px;
+}
+header div.form-group {
+	margin-left: 30px; 
+	margin-right: 30px;
+}
+
+div.leftpart {
 	position: relative;
 	float: left;
 	width: 772px;
 	margin-right: 20px;
 }
-div.leftpart2{
+div.leftpart2 {
 	position: relative;
 	padding-left: 60px;
 	float: left;
 	width: 264px;
 	margin-right: 20px;
 }
-div.rightpart{
+div.rightpart {
 	position: relative;
 	float: left;
 	width: 264px;
 }
-div.rightpart2{
+div.rightpart2 {
 	position: relative;
 	float: left;
 	width: 772px;
 }
-div.leftchoose{
+div.leftchoose {
 	position: relative;
 	float: left;
 	width: 122px;
 	margin-right: 20px;
 }
-div.righttext{
+div.righttext {
 	position: relative;
 	float: left;
 	padding-top: 30px;
